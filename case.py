@@ -30,8 +30,8 @@ input_tensor = pad_to_multiple_of(input_tensor, multiple=32)
 # Loop through each fold and process the image using each fine-tuned model
 for fold in range(1, 6):  # Assuming 5 folds
     # Load the fine-tuned model for the current fold with safe_serialization set to False
-    model_path = f'finetuned_model_fold_{fold}'
-    model = UNet2DModel.from_pretrained(model_path, safe_serialization=False)
+    model_path = f'resized_finetuned_model_fold_{fold}'
+    model = UNet2DModel.from_pretrained(model_path)
     model = model.cuda()  # Move to GPU if available
     model.eval()  # Set to evaluation mode
 
@@ -48,7 +48,7 @@ for fold in range(1, 6):  # Assuming 5 folds
     processed_image = transforms.ToPILImage()(processed_image)  # Convert tensor to PIL Image
 
     # Save the processed image with the fold number in the file name
-    output_image_path = f'case1_processed_fold_{fold}.png'
+    output_image_path = f'resized_case1_processed_fold_{fold}.png'
     processed_image.save(output_image_path)
 
     print(f"Processed image saved at {output_image_path}")
