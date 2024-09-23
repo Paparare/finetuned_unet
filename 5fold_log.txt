@@ -1,0 +1,60 @@
+C:\Users\PAREC\PycharmProjects\vision\.venv\Scripts\python.exe C:\Users\PAREC\PycharmProjects\vision\unet.py
+Fold 1:
+C:\Users\PAREC\PycharmProjects\vision\.venv\lib\site-packages\diffusers\models\attention_processor.py:2358: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  hidden_states = F.scaled_dot_product_attention(
+Epoch [1/10], Train Loss: 0.24167906269431114
+Epoch [2/10], Train Loss: 0.20182496085762977
+Epoch [3/10], Train Loss: 0.18216240629553795
+Epoch [4/10], Train Loss: 0.1765553392469883
+Epoch [5/10], Train Loss: 0.1470621157437563
+Epoch [6/10], Train Loss: 0.15070850551128387
+Epoch [7/10], Train Loss: 0.14061034768819808
+Epoch [8/10], Train Loss: 0.13887620568275452
+Epoch [9/10], Train Loss: 0.12238326966762543
+Epoch [10/10], Train Loss: 0.11998981237411499
+Fold 2:
+Epoch [1/10], Train Loss: 0.2875782296061516
+Epoch [2/10], Train Loss: 0.195635312050581
+Epoch [3/10], Train Loss: 0.1933325193822384
+Epoch [4/10], Train Loss: 0.18111502565443516
+Epoch [5/10], Train Loss: 0.16440888829529285
+Epoch [6/10], Train Loss: 0.16301959678530692
+Epoch [7/10], Train Loss: 0.14052086286246776
+Epoch [8/10], Train Loss: 0.13592253141105176
+Epoch [9/10], Train Loss: 0.12802573889493943
+Epoch [10/10], Train Loss: 0.11703534796833992
+Fold 3:
+Epoch [1/10], Train Loss: 0.23254192024469375
+Epoch [2/10], Train Loss: 0.19804237335920333
+Epoch [3/10], Train Loss: 0.18030592873692514
+Epoch [4/10], Train Loss: 0.16587930880486965
+Epoch [5/10], Train Loss: 0.147939195856452
+Epoch [6/10], Train Loss: 0.13203079625964165
+Epoch [7/10], Train Loss: 0.12588959671556949
+Epoch [8/10], Train Loss: 0.1164765141904354
+Epoch [9/10], Train Loss: 0.10582775920629502
+Epoch [10/10], Train Loss: 0.10943344291299581
+Fold 4:
+Epoch [1/10], Train Loss: 0.2554085202515125
+Epoch [2/10], Train Loss: 0.20009248629212378
+Epoch [3/10], Train Loss: 0.18297513164579868
+Epoch [4/10], Train Loss: 0.1711880125105381
+Epoch [5/10], Train Loss: 0.14739192686975003
+Epoch [6/10], Train Loss: 0.1376766063272953
+Epoch [7/10], Train Loss: 0.1227758463472128
+Epoch [8/10], Train Loss: 0.11507083065807819
+Epoch [9/10], Train Loss: 0.10629811473190784
+Epoch [10/10], Train Loss: 0.10513992514461279
+Fold 5:
+Epoch [1/10], Train Loss: 0.23719692826271058
+Epoch [2/10], Train Loss: 0.20034845620393754
+Epoch [3/10], Train Loss: 0.19354382008314133
+Epoch [4/10], Train Loss: 0.16433181948959827
+Epoch [5/10], Train Loss: 0.15970880948007107
+Epoch [6/10], Train Loss: 0.14673605114221572
+Epoch [7/10], Train Loss: 0.13719181418418885
+Epoch [8/10], Train Loss: 0.1266239292919636
+Epoch [9/10], Train Loss: 0.10881007872521878
+Epoch [10/10], Train Loss: 0.1063561150804162
+
+Process finished with exit code 0
